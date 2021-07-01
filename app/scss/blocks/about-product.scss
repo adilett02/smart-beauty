@@ -22,6 +22,7 @@
 }
 .peptides-text {
     color: #fff;
+    padding: 25px;
 }
 
 .useful__list {
@@ -185,5 +186,24 @@
     }
     .banner p {
         padding: 0;
+    }
+
+    .useful__list .useful__item {
+        width: 100%;
+        padding-left: 30px;
+    }
+    .useful__list .useful__item.left {
+        margin: 0;
+        padding-right: 0;
+    }
+    .useful__list .useful__item::before {
+        left: 11px;
+        border-color: transparent $primaryColor transparent transparent;
+    }
+    .useful__list::before {
+        left: 0;
+    }
+    .about-product .done-img {
+        width: 25px;
     }
 }
