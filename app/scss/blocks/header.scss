@@ -74,8 +74,8 @@ nav {
         }
     }
     svg {
-        width: 15px;
-        height: 15px;
+        width: 18px;
+        height: 18px;
         fill: $secondaryColor;
     }
 }
@@ -185,10 +185,12 @@ nav {
         a {
             width: 100%;
             padding: 10px 0;
+            color: #fff;
         }
     }
     .order-btn {
         margin-top: 20px;
+        background-color: $secondaryColor;
         padding: 5px 40px;
         &:hover {
             background-color: $secondaryColor;
