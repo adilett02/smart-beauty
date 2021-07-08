@@ -7,7 +7,7 @@
         font-weight: bold;
     }
     h4 {
-        font-size: 28px;
+        font-size: 32px;
         color: $primaryColor;
         font-weight: bold;
     }
@@ -125,20 +125,21 @@
 }
 .buy-section {
     background-image: url(../img/buy-bg.png);
-    background-color: $primaryColor;
+    background-color: #8bb7df;
     background-position: center;
     padding-top: 120px;
     h4 {
-        color: $secondaryColor;
+        color: #fff;
         margin-bottom: 40px;
     }
     .order-btn {
         background: $secondaryColor;
         color: #fff;
-        &:hover {
-            background: #fff;
-            color: $secondaryColor;
-        }
+    }
+    .buy-text {
+        font-style: italic;
+        font-size: 24px;
+        margin-bottom: 40px;
     }
 }
 
